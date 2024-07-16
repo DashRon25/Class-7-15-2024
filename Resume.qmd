@@ -1,0 +1,18 @@
+---
+title: "Resume"
+author: "Ronit Dash"
+format: html
+execute: 
+  echo: false
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+```
+## Broad Question
+Does race affect chances of employment?
+```{r}
+read.csv("data/resume.csv")
+```
+
